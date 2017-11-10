@@ -1,4 +1,4 @@
-cd /vagrant/projects/healthservices-waitingtimes
+cd /vagrant/projects/culturego
 
 touch deployment.run
 

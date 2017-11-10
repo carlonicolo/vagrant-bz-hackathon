@@ -16,9 +16,8 @@ echo "Go to folder /vagrant/projects/"
 cd /vagrant/projects/
 
 echo "Clone reporsitory"
-#curl -O https://github.com/abonte/southtyrolean-healthservices-waitingtimes/blob/master/requirements.txt
-git clone https://github.com/abonte/southtyrolean-healthservices-waitingtimes.git healthservices-waitingtimes
-cd healthservices-waitingtimes
+git clone git@github.com:carlonicolo/culturego.git culturego
+cd culturego
 
 echo "Install requirements"
 pip3 install -r requirements.txt
@@ -37,7 +36,7 @@ sudo touch /etc/authbind/byport/8000
 #chmod 500 /etc/authbind/byport/8000
 
 
-cd /vagrant/projects/healthservices-waitingtimes
+cd /vagrant/projects/culturego
 echo "Changing directory folder"
 pwd
 
@@ -54,12 +53,3 @@ chmod +x deployment.run
 
 echo "deployment.run script"
 cat deployment.run
-
-
-
-
-
-
-
-
-

@@ -16,7 +16,7 @@ echo "Go to folder /vagrant/projects/"
 cd /vagrant/projects/
 
 echo "Clone reporsitory"
-git clone git@github.com:carlonicolo/culturego.git culturego
+git clone https://github.com/carlonicolo/culturego.git
 cd culturego
 
 echo "Install requirements"

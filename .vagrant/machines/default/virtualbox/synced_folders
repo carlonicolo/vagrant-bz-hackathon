@@ -1,1 +1,1 @@
-{"virtualbox":{"/vagrant":{"guestpath":"/vagrant","hostpath":"/home/karlitos/Vagrant/Ubuntu16.04-Hackathon","disabled":false,"__vagrantfile":true}}}
+{"virtualbox":{"/vagrant/projects":{"guestpath":"/vagrant/projects","hostpath":"/home/karlitos/Vagrant/Ubuntu16.04-Hackathon/projects","disabled":false,"__vagrantfile":true},"/vagrant":{"guestpath":"/vagrant","hostpath":"/home/karlitos/Vagrant/Ubuntu16.04-Hackathon","disabled":false,"__vagrantfile":true}}}
